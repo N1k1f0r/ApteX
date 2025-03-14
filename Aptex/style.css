@@ -1,0 +1,231 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(fonts/CaviarDreams.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Lato',sans-serif;        
+}
+nav{
+    min-height: 100px;
+    border-radius: 20px;
+    border-bottom: solid 2px #333;
+    box-sizing: border-box!important;
+}
+h1{
+    font-family: 'CaviarDreams';
+    font-weight: bold!important;
+}
+#wrapper{
+    max-width: 1400px;
+    margin: auto;
+}
+main{
+    min-height: calc(100vh - 126px);
+}
+.navbar-brand{
+    font-family:'CaviarDreams';
+    font-size: 30px !important;;
+    font-weight: bold;
+    padding:27.5px 0!important;
+}
+.nav-main-nav .nav-link{
+    font-size: 20px;
+    padding:35px 20px!important;
+}
+.zaloguj{
+    color:#fff;
+    padding: 10px 20px;
+    background-color: limegreen;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 400ms;
+}
+.zaloguj:hover{
+    border-radius: 10px;
+    color:#fff;
+    background-color: green;
+}
+
+a{
+    text-decoration: none!important;
+}
+.dropdown-toggle::after {
+    display: none!important;
+}
+.icon-desc{
+    margin:-12px 0 7px 0;
+}
+nav i{
+    font-size: 40px;
+}
+.produkt{
+    width: 370px;
+    padding: 10px;
+    margin:10px;
+    transition: 400ms;
+    border-radius: 20px;
+    border-bottom: #333 solid 2px;
+}
+.produkt:hover{    
+    box-shadow: 0 10px 10px #80808080;
+    /* background-color: #eee; */
+}
+.produkt img{
+    border-radius: 30px;
+}
+.produkt-link{
+    color: #333;
+}
+.price{
+    font-size:24px;
+}
+.produkt1{
+    padding:80px 0 150px 0;
+    border-radius: 20px;
+    border-bottom: #333 solid 2px;
+}
+.produkt1 img{
+    border-radius: 30px;
+    box-shadow: 0 10px 10px #80808080;
+}
+.logowanie input[type=text],input[type=password]{
+    width:180px;
+    padding:4px 10px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    border: solid 1px #333;
+}
+.logowanie input[type=submit],input[type=reset]{
+    margin-top: 10px;
+    width: 85px;
+    padding:5px;
+    border-radius: 10px;
+    border:solid 1px #333;
+    color:#fff;
+    transition: 500ms;
+}
+.logowanie input[type=submit]{
+    background-color: #198754;
+    margin-right: 10px;
+}
+.logowanie input[type=submit]:hover{
+    background-color: #11633d;
+}
+.logowanie input[type=reset]{
+    background-color: #dc3545;
+}
+.logowanie input[type=reset]:hover{
+    background-color: #a02935;
+}
+.produkt1 input[type=submit]
+{
+    padding:5px;
+    border-radius: 10px;
+    border:solid 1px #333;
+    color:#fff;
+    transition: 500ms;
+    background-color: #198754;
+
+}
+.produkt1 input[type=number]
+{
+    width: 120px;
+    padding:5px;
+    border-radius: 10px;
+    border:solid 1px #333;
+    text-align: center;
+}
+.produkt1 input[type=number]::placeholder{
+    text-align: center;
+}
+
+#cena{
+    font-size: 24px;
+}
+#wplacanie input[type=number], #wplacanie input[type=submit]{
+    text-align: center;
+    padding:5px;
+    border-radius: 10px;
+    border:solid 1px #333;
+}
+#wplacanie input[type=number]{
+    font-weight: bold;
+    width: 200px;
+}
+#wplacanie input[type=submit]{
+    background-color: #198754;
+    margin-right: 10px;
+    color:#fff;
+    transition: 500ms;
+}
+#wplacanie input[type=submit]:hover{
+    background-color: #11633d;
+}
+#adres{
+    max-width: 1000px;
+}
+#adres input{
+    width: 250px;
+    padding:10px;
+    border-radius: 10px;
+}
+#ulica{
+    width: 512px !important;
+}
+#kup{
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #198754;
+    border: 0;
+    border-radius: 10px;
+    transition: 1000ms;
+}
+#kup:hover{
+    background-color: #11633d;
+    border-radius: 50px;
+}
+table, th, td {
+    border: 1px solid black!important;
+    border-collapse: collapse!important;
+}
+table{
+    margin: auto;
+}
+td,th{
+    padding: 5px;
+}
+input[type="search"]
+{
+    width: 200px;
+}
+@media (max-width:767px) {
+    .nav-item .nav-link{
+    font-size: 20px;
+    padding: 0 !important;
+    margin-bottom: 12px;
+    }
+    #navbarSupportedContent{
+        padding-bottom: 20px!important;
+    }
+    .produkt{
+        width: 80%;
+        margin:10px 0;
+    }
+    
+    .produkt img{
+        width:80%;
+        margin: auto;
+    }
+    #ulica{
+        width: 250px !important;
+    }
+}
